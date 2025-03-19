@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -22,18 +23,18 @@
                     <a href="#culinary" title="Ir para a seção de culinária">Culinária</a>
                 </li>
                 <li>
-                  <a href="technology" title="Ir para a seção de tecnologia">Tecnologia</a>
+                  <a href="#technology" title="Ir para a seção de tecnologia">Tecnologia</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section>
-        <h2>Esportes</h2>
+        <h2 id="sports">Esportes</h2>
         <article>
             <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-            <header>
+                <div class="time">
                 <time>13/07/2022 às 12:35</time>
-            </header>
+            </div>
             <h3>Grande clássico na noite de hoje</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -42,9 +43,9 @@
         </article>
         <article>
             <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-            <header>
+            <div class="time">
                 <time>13/07/2022 às 12:35</time>
-            </header>
+            </div>
             <h3>Noite do Superbowl</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -53,20 +54,6 @@
         </article>
         <article>
             <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
             <h3>Notícia sobre a NBA</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -75,12 +62,12 @@
         </article>
     </section>
     <section>
-        <h2>Economia</h2>
+        <h2 id="economy">Economia</h2>
         <article>
             <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-            <header>
+            <div class="time">
                 <time>13/07/2022 às 12:35</time>
-            </header>
+            </div>
             <h3>Dólar em alta de 0.50%</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -88,10 +75,9 @@
             <a href="#" title="Leia a notícia completa">Ler mais</a>
         </article>
         <article>
-            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-            <header>
+            <div class="time">
                 <time>13/07/2022 às 12:35</time>
-            </header>
+            </div>
             <h3>Euro em queda de 0.40%</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -100,8 +86,9 @@
         </article>
         <article>
             <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-            <header>
+            <div class="time">
                 <time>13/07/2022 às 12:35</time>
+            </div>
             </header>
             <h3>Alta no preço do barril do petróleo</h3>
             <p>
@@ -111,12 +98,12 @@
         </article>
     </section>
     <section>
-        <h2>Culinaria</h2>
+        <h2 id="culinary">Culinária</h2>
         <article>
             <img src="./imagens/Culinaria.jpg" alt="Pessoa cortando tomate em uma tábua de madeira" />
-            <header>
+            <div class="time">
                 <time>17/03/2025 às 13:35</time>
-            </header>
+            </div>
             <h3>Receitas para um jantar rápido</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -125,9 +112,9 @@
         </article>
         <article>
             <img src="./imagens/Vegetais.jpg" alt="Tábua de vegetais" />
-            <header>
+            <div class="time">
                 <time>17/03/2025 às 13:35</time>
-            </header>
+            </div>
             <h3>Os melhores vegetais para consumir</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -136,12 +123,12 @@
         </article>
     </section>
     <section>
-        <h2>Tecnologia</h2>
+        <h2 id="tecnology">Tecnologia</h2>
         <article>
             <img src="./imagens/Tecnologia - IA.png" title="Mão de um robo tocando uma tecla junto a uma mão humana" />
-            <header>
+            <div class="time">
                 <time>17/03/2025 às 13:35</time>
-            </header>
+            </div>
             <h3>Notícia sobre IA</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
@@ -150,9 +137,9 @@
         </article>
         <article>
             <img src="./imagens/IA - Aliada ou prejudicial" title="Medico utilizando IA" />
-            <header>
+            <div class="time">
                 <time>17/03/2025 às 13:35</time>
-            </header>
+            </div>
             <h3>IA: Aliada ou prejudicial?</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
